@@ -40,12 +40,14 @@ namespace Activity2
             pictureBox12.Image = Properties.Resources.supermeal_b;
             pictureBox7.Image = Properties.Resources.jollibee_family_meal_B;
             pictureBox4.Image = Properties.Resources.bf_meal_c;
-            PictureBox34.Image = Properties.Resources.mcdo_group_meal;
+            pictureBox34.Image = Properties.Resources.mcdo_group_meal;
             pictureBox16.Image = Properties.Resources.burger_fmaily_bundle;
             pictureBox11.Image = Properties.Resources.nuggets_family_bundle;
             pictureBox6.Image = Properties.Resources.jollibee_breakfast;
             pictureBox5.Image = Properties.Resources.lumpia_breakfast;
             pictureBox38.Image = Properties.Resources.Jollibee_Beef_Tapa_Breakfast_700x700;  
+
+            // code
 
         }
 

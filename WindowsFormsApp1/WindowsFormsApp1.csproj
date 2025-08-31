@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{48283BF6-C056-455E-ADF0-BD0C1245A751}</ProjectGuid>
+    <ProjectGuid>{2C976469-7EAE-4F9B-B4F0-21CAF1CC5E0B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Activity2</RootNamespace>
-    <AssemblyName>Activity2</AssemblyName>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -22,7 +22,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <UseWinFormsOutOfProcDesigner>False</UseWinFormsOutOfProcDesigner>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,7 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <UseWinFormsOutOfProcDesigner>False</UseWinFormsOutOfProcDesigner>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,7 +65,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -81,72 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\jollibee family meal 1.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\breakfast mcdo 1.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\breakfast mcdo 11.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\inasal 1.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sisigsilog.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kfc chicken sandwich.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\coffee float.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\coffee float1.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Family-Lauriat-for-6-pax.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\chowfan.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kfc family meal a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fmaily meal b kfc.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\supermeal a.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\supermeal b.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\jollibee family meal B.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bf meal c.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mcdo group meal.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\burger fmaily bundle.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\nuggets family bundle.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lumpia breakfast.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Jollibee-Beef-Tapa-Breakfast-700x700.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\jollibee breakfast.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
